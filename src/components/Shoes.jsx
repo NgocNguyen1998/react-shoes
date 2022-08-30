@@ -10,7 +10,9 @@ export default class Shoes extends Component {
           <h5>{product.name}</h5>
           <p>{product.price}$</p>
 
-          <button className='btn btn-success' onClick={()=>handleShoes(product)}>Detail</button>
+          <button className='btn btn-success' onClick={()=>handleShoes(product)} >
+           <a href="#detail" id='title'>Detail</a> 
+            </button>
 
         </div>
       </div>

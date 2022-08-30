@@ -4,7 +4,7 @@ export default class extends Component {
     render() {
         const { shoes } = this.props
         return (
-            <div>
+            <div id='detail'>
                 <h4 className='mt-4 pt-3'>Chi tiết sản phẩm</h4>
                 <div className='row'>
 
